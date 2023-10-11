@@ -2,6 +2,7 @@ import React, {
   forwardRef, useEffect, useImperativeHandle, useRef, useState
 } from 'react';
 import ReactDOM from 'react-dom';
+
 import {
   useIsomorphicLayoutEffect, useOnClickOutside, useOnEscape,
   useRepositionOnResize, useTabbing
@@ -11,6 +12,8 @@ import styles from './styles';
 import { PopupActions, PopupProps } from './types';
 import calculatePosition from './Utils';
 
+
+export * from './types'
 
 
 let popupIdCounter = 0;

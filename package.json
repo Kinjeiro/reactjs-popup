@@ -5,7 +5,7 @@
   "main": "src/index.jsx",
   "--module": "dist/reactjs-popup.esm.js",
   "--umd:main": "dist/reactjs-popup.umd.production.js",
-  "typings": "src/types.tsx",
+  "--typings": "src/types.tsx",
   "files": [
     "src"
   ],
