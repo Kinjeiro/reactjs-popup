@@ -2,10 +2,10 @@
   "name": "reactjs-popup",
   "version": "2.0.5",
   "description": "React Popup Component - Modals,Tooltips and Menus —  All in one",
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "--module": "dist/reactjs-popup.esm.js",
   "--umd:main": "dist/reactjs-popup.umd.production.js",
-  "--typings": "dist/index.d.ts",
+  "typings": "src/types.tsx",
   "files": [
     "src"
   ],
